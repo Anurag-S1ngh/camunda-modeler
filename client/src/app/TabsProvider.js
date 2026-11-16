@@ -35,7 +35,7 @@ import {
   ENGINES
 } from '../util/Engines';
 
-import EmptyTab from './EmptyTab';
+import EmptyTab from './empty-tab';
 
 import parseDiagramType from './util/parseDiagramType';
 

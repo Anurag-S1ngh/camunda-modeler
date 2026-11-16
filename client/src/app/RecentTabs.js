@@ -8,6 +8,8 @@
  * except in compliance with the MIT License.
  */
 
+export const CONFIG_KEY_RECENT_TABS = 'recentTabs';
+
 export class RecentTabs {
   constructor(options = {}) {
     const {
@@ -17,7 +19,7 @@ export class RecentTabs {
 
     this._setState = setState;
     this._config = config;
-    this._configKey = 'recentTabs';
+    this._configKey = CONFIG_KEY_RECENT_TABS;
     this._maxLength = 10;
     this._elements = [];
   }

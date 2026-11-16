@@ -15,7 +15,7 @@ import {
   forEach
 } from 'min-dash';
 
-import EmptyTab from '../../EmptyTab';
+import EmptyTab from '../../empty-tab';
 
 import { Linter as BpmnLinter } from 'test/mocks/linting';
 
